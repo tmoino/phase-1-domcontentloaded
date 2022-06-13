@@ -20,7 +20,7 @@ document.addEventListener( "DOMContentLoaded", function () {
     LoadedDom()
   } );
   
-// using the function in the kept inside the DOMContentLoaded to replace the text
+// using the function kept inside the DOMContentLoaded to replace the text
   function LoadedDom() {
     document.getElementById( "text" )
       .innerHTML = "This is really cool!";
